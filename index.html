@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CXone UAT Test Page</title>
+
+    <script>
+    (function(n,u){
+        window.CXoneDfo=n,
+        window[n]=window[n]||function(){
+            (window[n].q=window[n].q||[]).push(arguments)
+        },
+        window[n].u=u,
+        e=document.createElement("script"),
+        e.type="module",
+        e.src=u+"?"+Math.round(Date.now()/1e3/3600),
+        document.head.appendChild(e)
+    })('cxone','https://web-modules-de-na1.niceincontact.com/loader/1/loader.js');
+
+    cxone('init', '5430');
+    cxone('guide','init');
+    </script>
+
+</head>
+
+<body>
+    <h1>CXone UAT Test Page</h1>
+    <p>If you can see this page and the chat widget, the setup is working.</p>
+</body>
+</html>
